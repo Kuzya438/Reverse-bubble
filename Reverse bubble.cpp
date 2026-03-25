@@ -7,7 +7,7 @@ int main() {
 	const int size{ 10 };
 	int integerArray[size]{ 1456, 2, 3, 44, 5, 63, 7, 82, 9, 10 };
 
-	std::cout << "Ìàññèâ äî ñîğòèğîâêè: ";
+	std::cout << "ĞœĞ°ÑÑĞ¸Ğ² Ğ´Ğ¾ ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²ĞºĞ¸: ";
 	for (int element{}; element < size; ++element) {
 		std::cout << integerArray[element] << " ";
 	}
@@ -28,7 +28,7 @@ int main() {
 		if (!swapped) { break; }
 	}
 
-	std::cout << "Ìàññèâ ïîñëå ñîğòèğîâêè: ";
+	std::cout << "ĞœĞ°ÑÑĞ¸Ğ² Ğ¿Ğ¾ÑĞ»Ğµ ÑĞ¾Ñ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²ĞºĞ¸: ";
 	for (int element{}; element < size; ++element) {
 		std::cout << integerArray[element] << " ";
 	}
